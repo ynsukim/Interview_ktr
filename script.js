@@ -9,13 +9,58 @@ $( function() {
 function flip01() {
     $('.01').toggleClass('flipped');}
 function flip02() {
-    $('.02').toggleClass('flipped');}
+    $('.02').toggleClass('flipped');
+    var x = document.getElementById("i06");
+    if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";}
+    var y = document.getElementById("i05");
+        if (y.style.display === "block") {
+          y.style.display = "none";
+        } else { y.style.display = "block"; }
+    }
 function flip03() {
-    $('.03').toggleClass('flipped');}
+    $('.03').toggleClass('flipped');
+    var x = document.getElementById("i03");
+    if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+
+    var y = document.getElementById("i04");
+        if (y.style.display === "block") {
+          y.style.display = "none";
+        } else {
+          y.style.display = "block";
+        }
+    }
 function flip04() {
-    $('.04').toggleClass('flipped');}
+    $('.04').toggleClass('flipped');
+    var y = document.getElementById("i02");
+        if (y.style.display === "block") {
+          y.style.display = "none";
+        } else {
+          y.style.display = "block";
+        }
+}
 function flip05() {
-    $('.05').toggleClass('flipped');}
+    $('.05').toggleClass('flipped');
+    // var x = document.getElementById("i03");
+    // if (x.style.display === "block") {
+    //   x.style.display = "none";
+    // } else {
+    //   x.style.display = "block";
+    // }
+    //
+    // var y = document.getElementById("i04");
+    // if (y.style.display === "block") {
+    //   y.style.display = "none";
+    // } else {
+    //   y.style.display = "block";
+    // }
+}
 function flip06() {
     $('.06').toggleClass('flipped');}
 function flip07() {
@@ -25,7 +70,15 @@ function flip08() {
 function flip09() {
     $('.09').toggleClass('flipped');}
 function flip10() {
-    $('.10').toggleClass('flipped');}
+    $('.10').toggleClass('flipped');
+
+    var x = document.getElementById("i99");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+    }
 
 
 
@@ -96,7 +149,7 @@ function focusz06() {
   document.getElementById('z03').style.zIndex = 2;
   document.getElementById('z04').style.zIndex = 2;
   document.getElementById('z05').style.zIndex = 2;
-  document.getElementById('z06').style.zIndex = 8;
+  document.getElementById('z06').style.zIndex = 4;
   document.getElementById('z07').style.zIndex = 2;
   document.getElementById('z08').style.zIndex = 2;
   document.getElementById('z09').style.zIndex = 2;
@@ -155,28 +208,28 @@ function focusz10() {
 
 
 
-function focusi01() {
-  document.getElementById('i01').style.zIndex = 5;
-  document.getElementById('i02').style.zIndex = -2;
-  document.getElementById('i03').style.zIndex = -2;
-  document.getElementById('i04').style.zIndex = -2;
-}
-
-function focusi01() {
-  document.getElementById('i01').style.zIndex = -2;
-  document.getElementById('i02').style.zIndex = 5;
-  document.getElementById('i03').style.zIndex = -2;
-  document.getElementById('i04').style.zIndex = -2;
-}
-function focusi01() {
-  document.getElementById('i01').style.zIndex = -2;
-  document.getElementById('i02').style.zIndex = -2;
-  document.getElementById('i03').style.zIndex = 5;
-  document.getElementById('i04').style.zIndex = -2;
-}
-function focusi01() {
-  document.getElementById('i01').style.zIndex = -2;
-  document.getElementById('i02').style.zIndex = 2;
-  document.getElementById('i03').style.zIndex = -5;
-  document.getElementById('i04').style.zIndex = -2;
-}
+// function focusi01() {
+//   document.getElementById('i01').style.zIndex = 5;
+//   document.getElementById('i02').style.zIndex = -2;
+//   document.getElementById('i03').style.zIndex = -2;
+//   document.getElementById('i04').style.zIndex = -2;
+// }
+//
+// function focusi01() {
+//   document.getElementById('i01').style.zIndex = -2;
+//   document.getElementById('i02').style.zIndex = 5;
+//   document.getElementById('i03').style.zIndex = -2;
+//   document.getElementById('i04').style.zIndex = -2;
+// }
+// function focusi01() {
+//   document.getElementById('i01').style.zIndex = -2;
+//   document.getElementById('i02').style.zIndex = -2;
+//   document.getElementById('i03').style.zIndex = 5;
+//   document.getElementById('i04').style.zIndex = -2;
+// }
+// function focusi01() {
+//   document.getElementById('i01').style.zIndex = -2;
+//   document.getElementById('i02').style.zIndex = 2;
+//   document.getElementById('i03').style.zIndex = -5;
+//   document.getElementById('i04').style.zIndex = -2;
+// }
